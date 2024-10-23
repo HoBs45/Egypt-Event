@@ -1,0 +1,156 @@
+/* side bar ////////////////////*/
+aside{
+    height: 100vh;
+    width: 270px;
+    background-image: url(../photo/sidebar.jpeg);
+    position: fixed;
+    z-index: 22;
+    left: -270px;
+    transition: 500ms;
+
+}
+.iconeExit{
+    color: white;
+    position: relative !important;
+    left: 227px;
+    top: 11px;
+    transition: 300ms;
+    cursor: pointer;
+
+}
+.iconeExit:hover{
+    color: rgb(214 46 51 / 40%);
+}
+aside a{
+    
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+aside a:hover{
+    color: rgb(214 46 51 / 40%);
+}
+.navOpen{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    left: 271px;
+    cursor: pointer;
+}
+
+
+
+/* side bar ////////////////////*/
+/*  */
+/* header //////////////////////*/
+header{
+    height: 100vh;
+    background-image: url(../photo/egypt.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.redBg{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #dc3545;
+    opacity: 0.6;
+    z-index: 15;
+}
+.h2test{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    z-index: 16;
+}
+.spanTest{
+    color: white;
+    position: absolute;
+    z-index: 17;
+    margin-top: 90px;
+}
+/* header */
+/*  */
+/*  */
+/* section ///////////////////// */
+.singerOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.fSinger{
+    background-color: #f6416c;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    width: 50%;
+    margin: 0px;
+}
+.pSinger{
+    width: 50%;
+    background-color: #ccc;
+    margin: 0px;
+    display: none;
+}
+
+
+/* section ///////////////////// */
+/*  */
+/* section two ///////////////////// */
+
+.join{
+    background-image: url(../photo/join-us-sign-in-glowing-neon-style-with-speech-vector-29383137.jpg);
+    background-size: cover;
+    
+
+}
+.ineer{
+    display: flex;
+    gap: 15px;
+}
+.time{
+    padding: 50px;
+    border: 2px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: azure;
+    text-align: center;
+}
+
+
+/* section two ///////////////////// */
+/* footer //////////////////////////// */
+
+.socialList i{
+    
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.socialList i:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+
+
+
+/* footer //////////////////////////// */
